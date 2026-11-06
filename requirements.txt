@@ -1,0 +1,5 @@
+PyQt6>=6.11,<6.12
+PyQt6-WebEngine>=6.11,<6.12
+FastF1
+numpy
+SQLAlchemy

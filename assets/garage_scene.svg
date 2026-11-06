@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" fill="none">
+  <defs>
+    <linearGradient id="room" x2="0" y2="1"><stop stop-color="#111923"/><stop offset=".52" stop-color="#202a34"/><stop offset="1" stop-color="#10141b"/></linearGradient>
+    <linearGradient id="window" x2="0" y2="1"><stop stop-color="#c8dce5"/><stop offset="1" stop-color="#66808e"/></linearGradient>
+    <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#454d54"/><stop offset="1" stop-color="#171c22"/></linearGradient>
+    <linearGradient id="car" x2="0" y2="1"><stop stop-color="#303d4c"/><stop offset=".45" stop-color="#101923"/><stop offset="1" stop-color="#080d14"/></linearGradient>
+    <linearGradient id="leftShade" x2="1" y2="0"><stop stop-color="#080c13" stop-opacity=".99"/><stop offset=".47" stop-color="#080c13" stop-opacity=".91"/><stop offset=".72" stop-color="#080c13" stop-opacity=".42"/><stop offset="1" stop-color="#080c13" stop-opacity=".08"/></linearGradient>
+    <linearGradient id="vignette" x2="0" y2="1"><stop stop-color="#05080d" stop-opacity=".5"/><stop offset=".35" stop-color="#05080d" stop-opacity=".08"/><stop offset="1" stop-color="#05080d" stop-opacity=".48"/></linearGradient>
+    <linearGradient id="screen" x2="0" y2="1"><stop stop-color="#172638"/><stop offset="1" stop-color="#08101a"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="20"/></filter>
+  </defs>
+  <!-- Pit garage and open pit lane -->
+  <path fill="url(#room)" d="M0 0h1920v1080H0z"/>
+  <path fill="#080d14" d="M0 0h1920v105l-380 48H387L0 96z"/>
+  <path stroke="#91a0aa" stroke-opacity=".25" stroke-width="3" d="M0 102 380 155h1170l370-60M0 64l380 54h1170l370-75"/>
+  <path fill="#d5e1e7" fill-opacity=".68" d="M610 242h735v376H610z"/>
+  <path fill="url(#window)" d="M632 266h688v312H632z"/>
+  <path fill="#dce8eb" fill-opacity=".62" d="M632 455h688v123H632z"/>
+  <path fill="#536976" fill-opacity=".65" d="M632 518h688v60H632z"/>
+  <path stroke="#eff6f6" stroke-opacity=".8" stroke-width="8" d="M632 444h688M632 470h688M780 266v312m360-312v312"/>
+  <path fill="#a7bec7" fill-opacity=".45" d="M650 395h653v30H650z"/>
+  <path fill="#15202b" d="M585 208h790v35H585zM590 598h785v24H590z"/>
+  <path fill="#080c12" d="M0 152h142v704H0zm363 108h56v582h-56zm1017-47h82v615h-82zM1856 95h64v824h-64z"/>
+  <path fill="#39434b" fill-opacity=".45" d="M142 152h17v704h-17zm1275-47h18v829h-18z"/>
+  <path fill="#b7c4ca" fill-opacity=".48" d="M620 226h700v5H620zM620 615h700v5H620z"/>
+  <path fill="#313a43" d="M0 849h1920v231H0z"/>
+  <path fill="url(#floor)" d="M0 872h1920v208H0z"/>
+  <path stroke="#ccd6d9" stroke-opacity=".14" stroke-width="3" d="M0 925h1920M0 1000h1920M375 873 155 1080m650-207L720 1080m720-207 25 207"/>
+  <path fill="#090e15" d="M1500 206h356v206h-356z"/>
+  <path fill="url(#screen)" stroke="#536779" stroke-width="3" d="M1520 224h315v164h-315z"/>
+  <path stroke="#35a2d7" stroke-width="4" d="M1542 358h272m-272-28h272m-272-28h80m20 0h68m20 0h84m-264-51h132m18 0h74"/>
+  <path stroke="#a4d8ef" stroke-opacity=".8" stroke-width="4" d="m1543 352 48-38 40 14 58-57 38 22 66-55"/>
+  <path fill="#121a24" d="M1475 414h391v30h-391zM1494 446h45v218h-45zm311 0h44v218h-44z"/>
+  <path fill="#111923" d="M0 656h380v210H0z"/>
+  <path fill="#25313c" d="M22 680h105v154H22zm122 0h105v154H144zm122 0h105v154H266z"/>
+  <path stroke="#73828d" stroke-opacity=".42" stroke-width="3" d="M22 720h105m17 0h105m17 0h105M22 759h105m17 0h105m17 0h105M22 798h105m17 0h105m17 0h105"/>
+  <!-- Reflections from the pit opening -->
+  <path fill="#91bed0" fill-opacity=".17" filter="url(#blur)" d="M578 818h733l-116 79H482z"/>
+  <!-- Formula car, original generic silhouette -->
+  <g>
+    <ellipse cx="1322" cy="921" rx="625" ry="66" fill="#05080c" fill-opacity=".8" filter="url(#blur)"/>
+    <!-- tyres -->
+    <path fill="#07090d" d="M880 762c0-91 44-157 107-157s108 66 108 157v167c0 93-45 157-108 157s-107-64-107-157z"/>
+    <path fill="#18202a" d="M903 779c0-72 34-125 84-125s84 53 84 125v134c0 73-34 125-84 125s-84-52-84-125z"/>
+    <path fill="#07090d" d="M1458 742c0-111 53-191 126-191s126 80 126 191v197c0 111-53 190-126 190s-126-79-126-190z"/>
+    <path fill="#18202a" d="M1485 766c0-82 40-140 99-140s99 58 99 140v157c0 82-40 140-99 140s-99-58-99-140z"/>
+    <path stroke="#394856" stroke-width="7" d="M929 729h32m-32 43h32m-32 43h32m-32 43h32m-32 43h32m-32 43h32m-32 43h32m-32 43h32m-32 43h32m559-403h42m-42 52h42m-42 52h42m-42 52h42m-42 52h42m-42 52h42m-42 52h42m-42 52h42m-42 52h42"/>
+    <!-- front wing and nose -->
+    <path fill="#111a25" stroke="#586878" stroke-width="5" d="m675 805 223-43 31 37-60 28-177 9-72 39-119 12 9-30 88-30z"/>
+    <path fill="#c8102e" d="m552 854 111-26 82 3-72 21-123 29z"/>
+    <path fill="#111a25" stroke="#354656" stroke-width="5" d="m829 801 212-48 152 1 181-31 190 15 165 48-53 86-118-23-147 25-246-4-173 34-152-25-79 27-113-17z"/>
+    <path fill="url(#car)" d="m960 800 137-77 146-26 134 19 96 60-44 50-202 26-208-1z"/>
+    <!-- cockpit and halo -->
+    <path fill="#070b11" stroke="#7a8997" stroke-width="6" d="M1174 769c13-70 53-110 111-110 48 0 78 30 92 78l-29 31z"/>
+    <path stroke="#c8102e" stroke-width="11" stroke-linecap="round" d="M1166 762q109-94 215 6"/>
+    <path fill="none" stroke="#909da5" stroke-width="10" stroke-linecap="round" d="m1165 763 4 25m3-25q111-23 214 1"/>
+    <path stroke="#c8102e" stroke-width="12" d="m985 804 181 13 176-24 186 9 187 40-22 34-180-30-163 18-204-4-153-29z"/>
+    <path fill="#d8dee2" fill-opacity=".76" d="m1088 839 92 11-19 7-87-10zm370-2 82-9 17 6-83 11z"/>
+    <path fill="#101822" stroke="#73818b" stroke-width="5" d="m1650 773 151-8 27 25-12 48-155-8z"/>
+    <path fill="#c8102e" d="m1686 767 121-7 28 17-144 7z"/>
+    <path stroke="#a9b4ba" stroke-opacity=".7" stroke-width="5" d="m774 803 36 50m579-124 82 64m-420-17 31 93m204-153 45 96"/>
+    <!-- garage lights and red team accent -->
+    <path fill="#e7eef1" fill-opacity=".75" d="M475 168h346v8H475zm690 0h296v8h-296z"/>
+    <path fill="#c8102e" fill-opacity=".72" d="M1740 476h104v8h-104z"/>
+  </g>
+  <path fill="url(#leftShade)" d="M0 0h1920v1080H0z"/>
+  <path fill="url(#vignette)" d="M0 0h1920v1080H0z"/>
+</svg>

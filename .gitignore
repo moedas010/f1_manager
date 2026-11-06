@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+
+venv/
+fastf1_cache/
+*.db
